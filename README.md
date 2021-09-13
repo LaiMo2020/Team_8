@@ -34,8 +34,8 @@ The site was specifically kept simple, with no visual noise or distracting image
 
 ### Wireframes
 #### For the creation of the wireframes the Figma programme was used in order to be able to collaborate on the design. Throughout the development of the webpage the wireframes were very helpful for to reach the final design.
-#### We created mobile wireframes and desktop wireframes which can be seen here [Wireframes]https://www.figma.com/file/110Xe3XKGdcYy179U4MwaP/Wireframes?node-id=32%3A251) 
 
+[Wireframes](docs/Wireframes.pdf)
 
 ## Features
 
