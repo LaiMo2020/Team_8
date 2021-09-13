@@ -77,6 +77,8 @@ Once the user has a profile, they can then go through a questionnaire that will 
 Once the questionnaire has been filled in, the logged in user will then see their profile, including the badges, on their home screen.
 
 ### When the user is the employer
+When logging in as the admin, there is another page where all profiles can be viewed.
+
 
 #### Home/Profile
 
@@ -84,7 +86,8 @@ They can go to the 'profiles' page and view all of the profiles that have been c
 
 ### Features Left to Implement
 
-* Search/filter/sort on the view all profiles section
+* Search/filter/sort on the 'view all profiles' section for the employer view.
+* An indication of what the badges mean in a way that iss accessability-friendly.
 
 # Technologies Used
 
