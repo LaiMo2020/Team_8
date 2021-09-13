@@ -32,6 +32,15 @@ The main aim of More2Offer is to support and encourage employers to educate and 
 ### Design
 The site was specifically kept simple, with no visual noise or distracting images. This choice was made in order to design with accessability in mind, for the target audience. A simple but attractive font was chosen to add to the aesthetics. The blue colour for buttons and link text was chosen as it is an often-used colour within mental health circles, and aims to promote calm feelings.
 
+#### Frontend
+The site was specifically kept simple, with no visual noise or distracting images. This choice was made in order to design with accessability in mind, for the target audience. A simple but attractive font was chosen to add to the aesthetics. The blue colour for buttons and link text was chosen as it is an often-used colour within mental health circles, and aims to promote calm feelings.
+
+#### Backend
+There are two databases in MongoDB. One for users, and one for the questionnaire sections.
+The Users database stores the information that has been entered from the Registration page. Once the questionnaire has been filled in, this then populates the badges array as well, with any relevant badges.
+
+The second database is The Tabs database where there are the 5 sections/pages of the questionnaire. These are called when the user presses the 'next' button on each section.
+
 ### Wireframes
 #### For the creation of the wireframes the Figma programme was used in order to be able to collaborate on the design. Throughout the development of the webpage the wireframes were very helpful for to reach the final design.
 
