@@ -26,7 +26,8 @@ def index():
 def loggedin(username):
   username = mongo.db.Users.find_one(
     {"username": session["user"]})["username"]
-  user = mongo.db.users.find_one({"username": session["user"]})
+  user = mongo.db.Users.find_one({"username": session["user"]})
+  print(user)
   return render_template("index.html", username=username, user=user)
 
 
@@ -130,10 +131,12 @@ def questionnaire(username):
   print(user)
   if request.method == "POST":
     answers = {
-      "badges": request.form.getlist("questionnaire")
+      "badges": request.form.getlist("questionnaire"),
+      "highlights": request.form.get("highlights"),
+      "extra": request.form.get("extra")
     }
     mongo.db.Users.update({"username": username}, {"$set": answers})
-    return redirect(url_for("index"))
+    return redirect(url_for("loggedin", username=session["user"]))
   
   tabs = mongo.db.Tabs.find().sort("name")
   

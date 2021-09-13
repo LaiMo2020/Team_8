@@ -2,13 +2,15 @@
 
 {% block content %}
 <div class="container">
+  {% if session.user %}
   <div class="row">
     <div class="col">
       <h4 class="page-header">Questionnaire</h4>
     </div>
   </div>
   <div class="row">
-    <form action="{{ url_for('questionnaire', username=username, tabs=tabs) }}" class="col s12" method="POST" id="questionnaire">
+    <form action="{{ url_for('questionnaire', username=username, tabs=tabs) }}" class="col s12" method="POST"
+      id="questionnaire">
       <div class="row">
         <div class="col">
           <h5>Please answer all the following questions</h5>
@@ -34,6 +36,22 @@
           </div>
           {% endfor %}
 
+          <div class="tab">
+            <h6>Please provide us with personal highlights</h6>
+            <p>
+              <input placeholder="I climbed Kilimanjaro" name="highlights" id="highlights" type="text" class="validate">
+              <label for="highlights">Highlights</label>
+            </p>
+          </div>
+
+          <div class="tab">
+            <h6>Please let us know if you have any other specific needs in the workplace</h6>
+            <p>
+              <input placeholder="I need to work irregular hours" name="extra" id="extra" type="text" class="validate">
+              <label for="extra">Extra Info</label>
+            </p>
+          </div>
+
           <div style="overflow:auto;">
             <button class="btn waves-effect waves-light" type="button" id="prevBtn"
               onclick="nextPrev(-1)">Previous</button>
@@ -49,8 +67,17 @@
       <span class="step"></span>
       <span class="step"></span>
       <span class="step"></span>
+      <span class="step"></span>
+      <span class="step"></span>
     </div>
   </div>
+  {% else %}
+  <div class="row">
+    <div class="col">
+      <h2>You must be logged in to access this feature</h2>
+    </div>
+  </div>
+  {% endif %}
 </div>
 {% endblock %}
 
