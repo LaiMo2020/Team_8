@@ -4,46 +4,22 @@
   <img width="460" height="300" src="https://media.giphy.com/media/Q7q0KbMOijEUqOhAfr/giphy.gif?cid=ecf05e47si6bpufsc78iilfopi5siscy9ri7pxzy2lmu522s&rid=giphy.gif&ct=g">
   
  <br>
- Hello there, we are team 8 👋
+ Hello there, we are Access all Areas 👋
 </p>
   
 
 ## more2offer
-#### A fresh approach to recruitment. Users create a profile on the recruitment portal which includes all their basic data (name/contact etc) and fill in a questionnaire based on their specific needs. Users receive badges based on their specific needs - this avoids future awkwardness/conflict within the recruitment process and also later on in the workplace. Users also have the opportunity to showcase specific soft skills using badges.
+#### A person-centred recruitment hub that aims to increase inclusion in an ever-changing world. Users create a profile on the recruitment portal which includes all their basic data (name/contact etc) and fill in a questionnaire based on their specific needs. Users receive badges based on their specific needs - this avoids future awkwardness/conflict within the recruitment process and also later on in the workplace. Users also have the opportunity to showcase specific soft skills using badges.
 The app URL is : 
 
 
 ## UX
-#### The application is made for everyone that 
 
-#### sth
-#### another thing
+### Goals 
+This website is designed to encourage employers to think outside the box. Do you really want to miss out on an A-Grade employee just because they have a different ability set than what you have previously been used to? Because they didn't follow a traditional educational path?
+The main aim of More2Offer is to support and encourage employers to educate and empower themselves, encouraging recruitment from a truly diverse pool of candidates, focusing on “Can Do” rather than “May Struggle With”.
 
-### Wireframes
-#### For the creation of my wireframes I used the Balsamiqu program (see “technologies used"). Throughout the development of the webpage the wireframes were very helpful for me to reach the final design.
-#### I have created mobile wireframes and desktop wireframes.
-
-
-1. Desktop Wireframes
-
-  - [Home-page]()
-  - [LogIn]()
-  - [Register]()
-  - [Questionnaire]()
-  - [sth else]()
-
-
-
-
-2. Mobile Wireframes 
-
- - [Home-page]()
- - [LogIn]()
- - [Register]()
- - [Questionnaire]()
- - [sth else]()
-
-## User stories
+### User stories
 - As a job seeker with some additional/special needs (<-- not sure on terminology here), I want to be confident in applying somewhere, knowing the potential employer is open to employing people with additional needs. 
 - As a job seeker, I want to have an opportunity to make employers aware of my specific needs and skills as early as possible.
 - As a job seeker, I want to be able to save and edit my profile and application so that I can come back to it if I don’t want to finish it in one go, and be able to change my answers later. 
@@ -53,27 +29,34 @@ The app URL is :
 - As an employer, I want to be informed early of how I can aid any applicants to give them the best opportunity to present themselves.
 - As an employer, I want to learn more about both the benefits and challenges of employing people with additional needs. 
 
+### Design
+The site was specifically kept simple, with no visual noise or distracting images. This choice was made in order to design with accessability in mind, for the target audience. A simple but attractive font was chosen to add to the aesthetics. The blue colour for buttons and link text was chosen as it is an often-used colour within mental health circles, and aims to promote calm feelings.
+
+### Wireframes
+#### For the creation of the wireframes the Figma programme was used in order to be able to collaborate on the design. Throughout the development of the webpage the wireframes were very helpful for to reach the final design.
+#### We created mobile wireframes and desktop wireframes which can be seen here [Wireframes]https://www.figma.com/file/110Xe3XKGdcYy179U4MwaP/Wireframes?node-id=32%3A251) 
+
 
 ## Features
 
+### When the user is a job-seeker
+
+#### Profile creation, Logging in and Out
+The user can register their profile, using a username and password. Email and phone number are optional fields that are also stored.
+The user can then log in and out.
+
+#### Questionnaire
+Once the user has a profile, they can then go through a questionnaire that will allocate them their badges. Each question with multiple tickboxes is displayed as its own page. The user can click on the 'Next' button to continue to the next question. 
+
+#### Profile View
+Once the questionnaire has been filled in, the logged in user will then see their profile, including the badges, on their home screen.
 
 
- ### Header– without being logged in
+### When the user is the employer
 
-
-### Header– as a logged in user
 #### Home/Profile
 
 
-
-#### Questionnaire
-
-
-#### About
-
-
-#### Log out
-“Log out” enables the user to log out of his or her profile by pushing the link in the header
 
 ### Features Left to Implement
 
