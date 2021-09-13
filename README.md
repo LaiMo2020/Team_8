@@ -147,19 +147,6 @@ cross-platform document-oriented database/ NOSQL
   - iPad
   - iPhone SE
 
-### Validation of the code/ Screenshoot 
-
-- [vlaidator/screnshoot/Home-page-HTML]()
-- [vlaidator/screnshoot/Questions-HTML]()
-- [vlaidator/screnshoot/Login-HTML]()
-- [vlaidator/screnshoot/Register-HTML])
-- [vlaidator/screnshoot/Home-HTML]()
-- [vlaidator/screnshoot/About-HTML]()
-
-
-- [vlaidator/screnshoot/CSS]()
-- [vlaidator/screnshoot/JS]()
-- [vlaidator/screnshoot/PYTHON]()
 
 ### We have used the follwoing tech to test my code:
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
