@@ -27,7 +27,23 @@ The main aim of More2Offer is to support and encourage employers to educate and 
 - As an employer, I want to attract a diverse workforce in order to access a diverse skill set.
 - As an employer, I want to encourage people with disabilities to apply to our company.
 - As an employer, I want to be informed early of how I can aid any applicants to give them the best opportunity to present themselves.
-- As an employer, I want to learn more about both the benefits and challenges of employing people with additional needs. 
+- As an employer, I want to learn more about both the benefits and challenges of employing people with additional needs.
+
+#### Example User
+
+Candidate "Pickle" has two disabilities. She is deaf and also has a stomach condition meaning she needs to stop working for 1 hour every 2 hours.
+Pickle is a candidate who can offer a great deal to a company
+Pickle is very open about her deafness and would like it to be known to a prospective employer so that :
+The company can make reasonable adjustments to facilitate Pickle's working life
+Pickle is proud of her achievements especially given her deafness and would like a badge on her profile stating signifying that she is deaf. Pickle likes this badge as it means she does not have to start her first conversation with the prospective employers outlining her deafness
+However Pickle is less open about her second condition. She is willing to discuss her needs and loosely explain why but would really prefer not to talk about it at all.
+Pickle has an additional badge on her profile stating that she does not work normal hours.
+Pickle likes that the she is able to highlight her qualities and simplify her needs on her profile page helping ensure that the company that chooses her is indeed the right fit for her and she is for them.
+
+A games company sees Pickle's profile and sees that she is deaf.
+The company understands that Pickle's condition gives her a unique point of view in terms of developing games and would help others with a similar condition enjoy their games.
+The company clicks also sees that Pickle requires an altered work schedule and is satisfied that this can be arranged.
+The company likes the highlights and believes they match and so downloads CV
 
 ### Design
 The site was specifically kept simple, with no visual noise or distracting images. This choice was made in order to design with accessability in mind, for the target audience. A simple but attractive font was chosen to add to the aesthetics. The blue colour for buttons and link text was chosen as it is an often-used colour within mental health circles, and aims to promote calm feelings.
@@ -60,17 +76,15 @@ Once the user has a profile, they can then go through a questionnaire that will 
 #### Profile View
 Once the questionnaire has been filled in, the logged in user will then see their profile, including the badges, on their home screen.
 
-
 ### When the user is the employer
 
 #### Home/Profile
 
-
+They can go to the 'profiles' page and view all of the profiles that have been created.
 
 ### Features Left to Implement
 
-
-
+* Search/filter/sort on the view all profiles section
 
 # Technologies Used
 
