@@ -88,6 +88,7 @@ button.btn:hover, button.btn:focus, button.btn-large:hover, button.btn-large:foc
 /* Styles for the profile card */
 #badge-list {
   display: inline-flex;
+  flex-wrap: wrap;
 }
 
 #badge-list li {
